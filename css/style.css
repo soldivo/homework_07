@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  background-color: rgb(187, 180, 180);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__img {
+  width: 60%;
+}
+
+.nav__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 10%;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(152, 150, 150);
+}
+
+.nav__link {
+  padding: 2px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.container__hero {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.text__style {
+  margin: 1%;
+  text-align: center;
+}
+
+.text__style--special {
+  font-size: larger;
+}
+
+.hero__img {
+  width: 30%;
+}
+
+.container__sign--up,
+.container__log--in,
+.container__search {
+  margin: 3% 0;
+  background-color: rgb(205, 192, 192);
+  border-radius: 10%;
+}
+
+.sign__up-form,
+.log__in-form {
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.form__item {
+  margin: 5%;
+}
+
+.container__catalog {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog__product {
+  width: 31%;
+  margin: 1%;
+  padding: 1%;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(197, 187, 187);
+}

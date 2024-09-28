@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пошук</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container__nav">
+        <ul class="nav">
+          <li class="nav__item">
+            <a href="../index.html" class="logo">
+              <img src="../images/logo.png" alt="logo" class="logo__img" />
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="./sign_up.html" class="nav__link">Реєстрація</a>
+          </li>
+          <li class="nav__item">
+            <a href="./log_in.html" class="nav__link">Увійти</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Пошук</a>
+          </li>
+          <li class="nav__item">
+            <a href="./catalog.html" class="nav__link">Каталог</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container__search">
+        <h1 class="text__style--special">Виберіть ваше авто по фільтрам</h1>
+        <form
+          method="post"
+          action="https://fom.in.ua/echo"
+          class="search__form"
+        >
+          <fieldse>
+            <div class="form__item">
+              <p>Кузов</p>
+              <select name="body__type" id="body__type" required>
+                <option value="" disabled selected></option>
+                <option value="sedan">Седан</option>
+                <option value="compartment">Купе</option>
+                <option value="suv">SUV</option>
+                <option value="hatchback">Хетчбек</option>
+                <option value="statuion__wagon">Універсал</option>
+                <option value="cabriolet">Кабріолет</option>
+                <option value="pickup">Пікап</option>
+              </select>
+            </div>
+            <div class="form__item">
+              <p>Марка</p>
+              <select name="car__make" id="car__make" required>
+                <option value="" disabled selected></option>
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="toyota">Toyota</option>
+                <option value="audi">Audi</option>
+                <option value="ford">Ford</option>
+                <option value="porsche">Porsche</option>
+                <option value="honda">Honda</option>
+              </select>
+            </div>
+            <div class="form__item">
+              <p>Рік</p>
+              <select name="car__year" id="car__year" required>
+                <option value="" disabled selected></option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+                <option value="2008">2008</option>
+                <option value="2007">2007</option>
+                <option value="2006">2006</option>
+              </select>
+            </div>
+            <div class="form__item">
+              <p>Вартість</p>
+              <select name="car__price" id="car__price" required>
+                <option value="" disabled selected></option>
+                <option value="to__100000">До 100000 грн</option>
+                <option value="to__300000">До 300000 грн</option>
+                <option value="to__500000">До 500000 грн</option>
+                <option value="to__1000000">До 1000000 грн</option>
+                <option value="to__2000000">До 2000000 грн</option>
+                <option value="to__3000000">До 3000000 грн</option>
+                <option value="to__5000000">До 5000000 грн</option>
+              </select>
+            </div>
+            <div class="form__item">
+              <input type="submit" value="Пошук" />
+            </div>
+          </fieldse>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

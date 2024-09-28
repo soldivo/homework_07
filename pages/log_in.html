@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Увійти</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container__nav">
+        <ul class="nav">
+          <li class="nav__item">
+            <a href="../index.html" class="logo">
+              <img src="../images/logo.png" alt="logo" class="logo__img" />
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="./sign_up.html" class="nav__link">Реєстрація</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Увійти</a>
+          </li>
+          <li class="nav__item">
+            <a href="./search.html" class="nav__link">Пошук</a>
+          </li>
+          <li class="nav__item">
+            <a href="./catalog.html" class="nav__link">Каталог</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container__log--in">
+        <h1>Увійти в простір</h1>
+        <form
+          class="log__in-form"
+          method="post"
+          action="https://fom.in.ua/echo"
+        >
+          <fieldset>
+            <div class="form__item">
+              <p>Email</p>
+              <input type="email" name="user_email" id="email" required />
+            </div>
+            <div class="form__item">
+              <p>Пароль</p>
+              <input
+                type="password"
+                name="user_password"
+                id="password"
+                required
+              />
+            </div>
+            <div class="form__item">
+              <p>Запам'ятати пароль</p>
+              <input
+                type="checkbox"
+                name="remember_password"
+                id="remember_password"
+              />
+            </div>
+            <div class="form__item"></div>
+            <input type="submit" value="Увійти" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
