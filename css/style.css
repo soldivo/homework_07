@@ -53,12 +53,16 @@ body {
 }
 
 .text__style {
-  margin: 1%;
+  margin: 3%;
+  padding: 3%;
   text-align: center;
 }
 
 .text__style--special {
-  font-size: larger;
+  text-align: center;
+  font-size: 500;
+  margin: 2%;
+  padding: 2%;
 }
 
 .hero__img {
@@ -81,7 +85,10 @@ body {
 }
 
 .form__item {
+  justify-content: center;
+  text-align: center;
   margin: 5%;
+  padding: 5%;
 }
 
 .container__catalog {
@@ -97,4 +104,23 @@ body {
   justify-content: center;
   text-align: center;
   background-color: rgb(197, 187, 187);
+}
+
+.form__submit {
+  background-color: rgb(129, 140, 137);
+}
+
+.form__submit:hover,
+.product__buy:hover {
+  background-color: cadetblue;
+}
+
+.form__submit:active,
+.product__buy:active {
+  background-color: brown;
+}
+
+.product__buy {
+  text-decoration: none;
+  color: rgb(38, 15, 209);
 }

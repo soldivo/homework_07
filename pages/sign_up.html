@@ -32,27 +32,27 @@
         </ul>
       </div>
       <div class="container__sign--up">
-        <h1>Реєстрація до нашого сайту</h1>
+        <h1 class="text__style--special">Реєстрація до нашого сайту</h1>
         <form
           class="sign__up-form"
           method="post"
           action="https://fom.in.ua/echo"
         >
           <fieldset>
-            <div class="form__item">
+            <div class="form__item text__style">
               <p>Ім'я</p>
               <input type="text" name="user_name" id="name" required />
             </div>
-            <div class="form__item">
+            <div class="form__item text__style">
               <p>Прізвище</p>
               <input type="text" name="user_surname" id="surname" required />
             </div>
             <div class="form__item">
-              <div class="form__item">
+              <div class="form__item text__style">
                 <p>Email</p>
                 <input type="email" name="user_email" id="email" required />
               </div>
-              <p>Пароль</p>
+              <p class="text__style">Пароль</p>
               <input
                 type="password"
                 name="user_password"
@@ -60,7 +60,7 @@
                 required
               />
             </div>
-            <div class="form__item">
+            <div class="form__item text__style">
               <p>Підтвердження паролю</p>
               <input
                 type="password"
@@ -69,8 +69,12 @@
                 required
               />
             </div>
-            <div class="form__item--btn">
-              <input type="submit" value="Зареєструватись" />
+            <div class="form__item--btn text__style">
+              <input
+                class="form__submit"
+                type="submit"
+                value="Зареєструватись"
+              />
             </div>
           </fieldset>
         </form>
